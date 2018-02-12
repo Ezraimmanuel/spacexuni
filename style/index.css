@@ -1,0 +1,48 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  background-color: #192249;
+  margin: 0px;
+  position: fixed;
+}
+.Navigation {
+  background-color: #110E28;
+  border-bottom: 3px solid #FFCA15;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  position: fixed;
+}
+.Logo {
+  height: 100%;
+  width: 320px;
+}
+
+.main {
+  background-color: red;
+  position: fixed;
+  width: 90%;
+  height: 80%;
+  margin-right: 5%;
+  margin-left: 5%;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.ProgressBar {
+  background-color: yellow;
+  height: 20%;
+  widht: 100%;
+  margin-bottom: 60px;
+}
+
+.InfoBox {
+  background-color: green;
+  height: 70%;
+  widht: 100%;
+}
