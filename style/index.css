@@ -9,21 +9,25 @@ body {
 }
 .Navigation {
   background-color: #110E28;
-  border-bottom: 3px solid #FFCA15;
+  border-bottom: 3px solid #22C4A5;
   width: 100%;
   height: 50px;
   display: flex;
   flex-direction: row;
-  justify-content: flex-end;
+  justify-content: center;
   position: fixed;
 }
 .Logo {
-  height: 100%;
-  width: 320px;
+  display: flex;
+  width: 180px;
+  text-align: center;
+}
+.Logo img {
+  width: 100%;
 }
 
 .main {
-  background-color: red;
+  background-color: none;
   position: fixed;
   width: 90%;
   height: 80%;
@@ -35,14 +39,48 @@ body {
 }
 
 .ProgressBar {
-  background-color: yellow;
-  height: 20%;
-  widht: 100%;
-  margin-bottom: 60px;
+  background-color: none;
+  height: 25px;
+  max-width: 50%;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.IconDep {
+  background-color: none;
+  height: 100%;
+  width: 24px;
+  margin-right: 5%;
+}
+
+.ProgressTotal {
+  background-color: 131313;
+  background-image: url(pictures/stars.jpg);
+  background-size: 100%;
+  height: 100%;
+  width: 90%;
+  border-radius: 50px;
+}
+
+.ProgressCompleted{
+  background-color: #22C4A5;
+  height: 100%;
+  width: 40%;
+  border-radius: 50px;
+}
+
+.IconArr {
+  background-color: none;
+  height: 100%;
+  width: 24px;
+  margin-left: 5%;
 }
 
 .InfoBox {
-  background-color: green;
-  height: 70%;
+  background-color: #081021;
+  height: 90%;
   widht: 100%;
 }
