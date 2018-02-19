@@ -2,11 +2,11 @@
   margin: 0px;
   padding: 0px;
 }
+
 body {
   background-color: #192249;
-  margin: 0px;
-  position: fixed;
 }
+
 .Navigation {
   background-color: #110E28;
   border-bottom: 3px solid #22C4A5;
@@ -16,44 +16,37 @@ body {
   flex-direction: row;
   justify-content: center;
   position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
 }
+
 .Logo {
   display: flex;
   width: 180px;
   text-align: center;
 }
+
 .Logo img {
   width: 100%;
 }
 
 .main {
-  background-color: none;
-  position: fixed;
-  width: 90%;
-  height: 80%;
-  margin-right: 5%;
-  margin-left: 5%;
-  margin-top: 100px;
-  margin-bottom: 50px;
-  text-align: center;
+  margin-top: 70px;
 }
 
 .ProgressBar {
-  background-color: none;
   height: 25px;
-  max-width: 50%;
   margin: 0 auto;
-  margin-bottom: 30px;
+  margin: 0px 20px 0px 20px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
 
 .IconDep {
-  background-color: none;
-  height: 100%;
   width: 24px;
-  margin-right: 5%;
+  margin-right: 20px;
 }
 
 .ProgressTotal {
@@ -73,14 +66,17 @@ body {
 }
 
 .IconArr {
-  background-color: none;
-  height: 100%;
   width: 24px;
-  margin-left: 5%;
+  margin-left: 20px;
 }
 
-.InfoBox {
+.infoContainer {
+  padding: 20px;
+}
+
+.infoBox {
   background-color: #081021;
-  height: 90%;
-  widht: 100%;
+  padding: 20px;
+  margin-bottom: 20px;
+  color: white;
 }
