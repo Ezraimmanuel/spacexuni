@@ -80,3 +80,13 @@ body {
   margin-bottom: 20px;
   color: white;
 }
+
+.ring {
+  width: 100%;
+  max-width: 150px;
+}
+
+.graph {
+  width: 100%;
+  max-width: 300px;
+}
