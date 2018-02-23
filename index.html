@@ -1,31 +1,51 @@
+<!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="style/index.css">
-    <title>SpaceX - Elon Musk</title>
-  </head>
-  <body>
-    <div class="page">
-      <div class="Navigation">
-        <div class="Logo"><img src="style/pictures/SpaceX-Logo.svg" alt="SpaceX"></div>
-      </div>
-      <div class="main">
-        <div class="ProgressBar">
-          <div class="IconDep"><img src="style/pictures/Flight-Takeoff.svg" alt="SpaceX"></div>
-          <div class="ProgressTotal">
-            <div class="ProgressCompleted"></div>
-          </div>
-          <div class="IconArr"><img src="style/pictures/Flight-Land.svg" alt="SpaceX"></div>
+<head>
+	<meta charset="UTF-8">
+	<meta content="width=device-width, initial-scale=1.0" name="viewport">
+	<link href="style/index.css" rel="stylesheet" type="text/css">
+	<title>SpaceX - Elon Musk</title>
+</head>
+<body>
+	<div class="page">
+		<div class="Navigation">
+			<div class="Logo"><img alt="SpaceX" src="style/pictures/SpaceX-Logo.svg"></div>
+		</div>
+		<div class="main">
+			<div class="ProgressBar">
+				<div class="IconDep"><img alt="SpaceX" src="style/pictures/Flight-Takeoff.svg"></div>
+				<div class="ProgressTotal">
+					<div class="ProgressCompleted"></div>
+				</div>
+				<div class="IconArr"><img alt="SpaceX" src="style/pictures/Flight-Land.svg"></div>
+			</div>
+			<div class="infoContainer">
+        <div class="column">
+          <div class="infoBox video">
+  					<video autoplay="" loop="" width="100%"><source src="style/marz.mp4" type="video/mp4"></video>
+  				</div>
         </div>
-        <div class="infoContainer">
-          <div class="infoBox"><img class="ring" src="style/pictures/green.png" alt="food"></div>
-          <div class="infoBox"><img class="ring" src="style/pictures/green.png" alt="food"></div>
-          <div class="infoBox"><img class="ring" src="style/pictures/green.png" alt="food"></div>
-          <div class="infoBox"><img class="graph" src="style/pictures/graph.png" alt="food"></div>
-          <div class="infoBox"><img class="ring" src="style/pictures/green.png" alt="food"></div>
+        <div class="column">
+          <div class="infoBox fuel">
+  					<canvas id="fuelChart"></canvas>
+  				</div>
+          <div class="infoBox food">
+  					<canvas id="foodChart"></canvas>
+  				</div>
         </div>
-      </div>
-    </div>
-  <body>
+
+				<div class="column">
+          <div class="infoBox distance">
+  					<canvas id="distanceChart"></canvas>
+  				</div>
+        </div>
+
+			</div>
+		</div>
+	</div>
+  <script src="js/jquery-3.3.1.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.1/Chart.js"></script>
+	<script src="js/interactionz.js" type="text/javascript">
+	</script>
+</body>
 </html>

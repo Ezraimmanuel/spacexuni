@@ -1,92 +1,113 @@
-*{
-  margin: 0px;
-  padding: 0px;
+@media only screen and (min-device-width: 667px) and (max-device-width: 1024px) {
+	body {
+		max-width: 667px;
+		margin: 0 auto;
+	}
+}
+
+/* @media only screen and (min-device-width: 1024px) and (max-device-width: 1600px) {
+	body {
+		max-width: 870px;
+		margin: 0 auto;
+	}
+}
+
+@media only screen and (min-device-width: 1600px) and (max-device-width: 7000px) {
+	body {
+		max-width: 1270px;
+		margin: 0 auto;
+	}
+} */
+
+* {
+	margin: 0px;
+	padding: 0px;
 }
 
 body {
-  background-color: #192249;
+	background-color: #192249;
 }
 
 .Navigation {
-  background-color: #110E28;
-  border-bottom: 3px solid #22C4A5;
-  width: 100%;
-  height: 50px;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
+	background-color: #110E28;
+	border-bottom: 3px solid #22C4A5;
+	width: 100%;
+	height: 50px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
 }
 
 .Logo {
-  display: flex;
-  width: 180px;
-  text-align: center;
+	display: flex;
+	width: 180px;
+	text-align: center;
 }
 
 .Logo img {
-  width: 100%;
+	width: 100%;
 }
 
 .main {
-  margin-top: 70px;
+	margin-top: 70px;
 }
 
 .ProgressBar {
-  height: 25px;
-  margin: 0 auto;
-  margin: 0px 20px 0px 20px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+	height: 25px;
+	margin: 0 auto;
+	margin: 0px 20px 0px 20px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
 }
 
 .IconDep {
-  width: 24px;
-  margin-right: 20px;
+	width: 24px;
+	margin-right: 20px;
 }
 
 .ProgressTotal {
-  background-color: 131313;
-  background-image: url(pictures/stars.jpg);
-  background-size: 100%;
-  height: 100%;
-  width: 90%;
-  border-radius: 50px;
+	background-color: 131313;
+	background-image: url(pictures/stars.jpg);
+	background-size: 100%;
+	height: 100%;
+	width: 90%;
+	border-radius: 50px;
 }
 
-.ProgressCompleted{
-  background-color: #22C4A5;
-  height: 100%;
-  width: 40%;
-  border-radius: 50px;
+.ProgressCompleted {
+	background-color: #22C4A5;
+	height: 100%;
+	width: 40%;
+	border-radius: 50px;
 }
 
 .IconArr {
-  width: 24px;
-  margin-left: 20px;
+	width: 24px;
+	margin-left: 20px;
 }
 
 .infoContainer {
-  padding: 20px;
+	padding: 20px;
 }
 
 .infoBox {
-  background-color: #081021;
-  padding: 20px;
-  margin-bottom: 20px;
-  color: white;
+	background-color: #081021;
+	padding: 20px;
+	margin-bottom: 20px;
+	color: white;
 }
 
 .ring {
-  width: 100%;
-  max-width: 150px;
+	width: 100%;
+	max-width: 150px;
 }
 
 .graph {
-  width: 100%;
-  max-width: 300px;
+	width: 100%;
+	max-width: 300px;
 }
