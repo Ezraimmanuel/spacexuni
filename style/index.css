@@ -1,23 +1,23 @@
 @media only screen and (min-device-width: 667px) and (max-device-width: 1024px) {
-	body {
+	.infoContainer {
 		max-width: 667px;
 		margin: 0 auto;
 	}
 }
 
-/* @media only screen and (min-device-width: 1024px) and (max-device-width: 1600px) {
-	body {
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1600px) {
+	.infoContainer {
 		max-width: 870px;
 		margin: 0 auto;
 	}
 }
 
 @media only screen and (min-device-width: 1600px) and (max-device-width: 7000px) {
-	body {
+	.infoContainer {
 		max-width: 1270px;
 		margin: 0 auto;
 	}
-} */
+}
 
 * {
 	margin: 0px;
@@ -25,11 +25,11 @@
 }
 
 body {
-	background-color: #192249;
+	background-color: black;
 }
 
 .Navigation {
-	background-color: #110E28;
+	background-color: black;
 	border-bottom: 3px solid #22C4A5;
 	width: 100%;
 	height: 50px;
@@ -71,9 +71,7 @@ body {
 }
 
 .ProgressTotal {
-	background-color: 131313;
-	background-image: url(pictures/stars.jpg);
-	background-size: 100%;
+	background-color: rgba(255,255,255, 0.2);
 	height: 100%;
 	width: 90%;
 	border-radius: 50px;
@@ -91,12 +89,20 @@ body {
 	margin-left: 20px;
 }
 
+.video-box {
+	margin-top: -40px;
+	z-index: -1;
+	position: relative;
+}
+
 .infoContainer {
 	padding: 20px;
 }
 
 .infoBox {
-	background-color: #081021;
+	background-color: black;
+	border: 3px solid rgba(34,196,165,0.3);
+	border-radius: 15px;
 	padding: 20px;
 	margin-bottom: 20px;
 	color: white;
