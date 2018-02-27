@@ -9,42 +9,51 @@
 <body>
 	<div class="page">
 		<div class="Navigation">
-			<div class="Logo"><img alt="SpaceX" src="style/pictures/SpaceX-Logo.svg"></div>
-		</div>
-		<div class="main">
+			<div class="Logo"><img alt="SpaceX" src=
+			"style/pictures/SpaceX-Logo.svg"></div>
 			<div class="ProgressBar">
-				<div class="IconDep"><img alt="SpaceX" src="style/pictures/Flight-Takeoff.svg"></div>
+				<div class="IconDep"><img alt="SpaceX" src=
+				"style/pictures/Flight-Takeoff.svg"></div>
 				<div class="ProgressTotal">
 					<div class="ProgressCompleted"></div>
 				</div>
-				<div class="IconArr"><img alt="SpaceX" src="style/pictures/Flight-Land.svg"></div>
-			</div>
-
-			<div class="video-box">
-				<video autoplay="" loop="" width="100%"><source src="style/dash.mp4" muted type="video/mp4"></video>
-			</div>
-
-			<div class="infoContainer">
-        <div class="column">
-          <div class="infoBox fuel">
-  					<canvas id="fuelChart"></canvas>
-  				</div>
-          <div class="infoBox food">
-  					<canvas id="foodChart"></canvas>
-  				</div>
-        </div>
-
-				<div class="column">
-          <div class="infoBox distance">
-  					<canvas id="distanceChart"></canvas>
-  				</div>
-        </div>
-
+				<div class="IconArr"><img alt="SpaceX" src=
+				"style/pictures/Flight-Land.svg"></div>
 			</div>
 		</div>
+		<div class="main">
+			<div class="video-box">
+				<video autoplay="" loop="" width="100%"><source src="style/dash.mp4" type=
+				"video/mp4"></video>
+			</div>
+			<div class="infoContainer">
+				<div class="speed-box">
+					<p class="speed"><span class="current-speed">43135</span> <span class=
+					"small">KM/h</span></p>
+				</div>
+				<div class="infoBox leftie fuel">
+					<div class="grid"></div>
+					<canvas id="fuelChart"></canvas>
+				</div>
+				<div class="infoBox leftie food">
+					<div class="grid"></div>
+					<canvas id="foodChart"></canvas>
+				</div>
+
+			</div>
+			<div class="line-container">
+				<div class="infoBox distance">
+					<div class="grid"></div>
+					<canvas id="distanceChart"></canvas>
+				</div>
+			</div>
+
+		</div>
 	</div>
-  <script src="js/jquery-3.3.1.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.1/Chart.js"></script>
+	<script src="js/jquery-3.3.1.min.js">
+	</script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.1/Chart.js">
+	</script>
 	<script src="js/interactionz.js" type="text/javascript">
 	</script>
 </body>
